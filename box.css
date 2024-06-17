@@ -1,0 +1,37 @@
+.box-model {
+    height: 100px;
+    width: 200px;
+    background-color: lavenderblush;
+
+    padding: 10px 20px 30px 40px;
+
+    border-width: 5px;
+    border-color: crimson;
+    border-style: double;
+    border-radius: 50px 20px 40px 10px;
+    border: 10px inset orangered;
+    border-top: 5px solid purple;
+    border-right: 5px dashed blue;
+    border-bottom: 8px dotted green;
+    border-left: 8px double orangered;
+
+    margin: 5px 20px 40px 60px;
+}
+
+.content-box{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: lightgray;
+    box-sizing: content-box;
+}
+
+.border-box{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: lightsteelblue;
+    box-sizing: border-box;
+}

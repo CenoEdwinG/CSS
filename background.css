@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+.bg {
+    font-family: "Tiny5", sans-serif;
+
+    background-color: blanchedalmond;
+
+    background: rgb(2,0,36);
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,121,9,1) 35%, rgba(0,212,255,1) 100%);
+
+    background-image: url("sample-img.jpg").jpg;
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA3L2pvYjE0NDgtYmFja2dyb3VuZC0wNGEteF8xLmpwZw.jpg);
+
+    background-size: cover;
+
+    background: aqua url('sampl-img.jpg') center no-repeat fixed cover
+}

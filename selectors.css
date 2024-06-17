@@ -1,0 +1,58 @@
+* {
+    background-color: beige;
+    color: blue;
+}
+
+h1 {
+    color: maroon;
+}
+
+.class-selector {
+    color: #ae5e6b;
+}
+
+#id-selector {
+    color: brown;
+}
+
+[href] {
+    color: orange;
+}
+/* Targetting an <p> with an [href] attribute */
+p[href] {
+    color: green;
+}
+/* Targetting elements with an [href] attribute that is exactly 'www.example1.com' */
+[href = 'www.example1.com'] {
+    color: magenta;
+} 
+a[href = 'www.example1.com'] {
+    color: magenta;
+}
+
+h2, h3, h4 {
+    font-size: 10px;
+}
+
+h2, #grp-selector1, .grp-selector2 {
+    font-size: 10px;
+    background-color: mistyrose;
+}
+
+.pseudo-class:hover {
+    background-color: navy;
+    color: yellow;
+}
+.pseudo-class1:visited{
+    background-color: gray;
+}
+
+.pseudo-element::before{
+    content: "Placed before - "
+}
+.pseudo-element::after {
+    content: " - Placed after. "
+}
+.pseudo-element::first-letter {
+    color: red;
+}
